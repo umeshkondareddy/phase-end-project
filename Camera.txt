@@ -1,0 +1,42 @@
+public class Camera 
+{
+	 int id;
+	 String brand;
+     String model;
+	 double perDayRent;
+	 boolean rented;
+	public Camera(int id, String brand, String model, double perDayRent) 
+	{
+		this.id = id;
+		this.brand = brand;
+		this.model = model;
+		this.perDayRent = perDayRent;
+		this.rented = false; 
+	}
+	
+	int getId() 
+	{
+		return id;
+	}
+	String getBrand()
+	{
+		return brand;
+	}
+	String getModel() 
+	{
+		return model;
+	}
+	 double getPerDayRent() 
+	 {
+		return perDayRent;
+	 }
+	 boolean isRented() 
+	 {
+		return rented;
+	 }
+	 void setRented(boolean rented)
+	 {
+		this.rented = rented;
+	 }
+	
+}
